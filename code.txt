@@ -1,0 +1,10 @@
+<Carousel
+      data={data}
+      renderItem={({data})=><Moviecard item={item} />}
+      firstItem={1}
+      inactiveSlideOpacity={0.68}
+      sliderWidth={600}
+      itemWidth={400}
+      slideStyle={{display: 'flex', alignItems:'center'}}
+      
+      />
